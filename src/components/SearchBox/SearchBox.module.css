@@ -1,0 +1,13 @@
+.labelSearch{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    margin-bottom: 20px;
+}
+
+.inputSearch {
+    width: 306px;
+    padding: 6px;
+    border-radius: 6px;
+}

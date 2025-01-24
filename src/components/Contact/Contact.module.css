@@ -1,0 +1,35 @@
+.contactsList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.contactItem{
+min-width: 240px;
+flex-basis: calc((100% - 96px) / 4);
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.innerCont{
+    display: flex;
+    gap: 4px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contantNBtn{
+    display: block;
+    background-color: rgb(244, 242, 242);
+    border: 1px solid rgb(108, 107, 107);
+    border-radius: 8px;
+}
+.contactIcon{
+    width: 20px;
+}
