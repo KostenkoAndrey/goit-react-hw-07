@@ -7,7 +7,7 @@ import { useSelector } from "react-redux";
 
 const ContactList = () => {    
 const contacts = useSelector(selectFilteredContacts);
-
+    
 return (
     <ul className={s.contactsList}>
         {contacts.map(({ id, name, number }) =>
